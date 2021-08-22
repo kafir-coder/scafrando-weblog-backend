@@ -1,6 +1,6 @@
 # create post usecase
 
-> ## Caso de sucesso
+> ## success case
 
 1. ✅ receives a **POST** requisition on route **/api/posts**
 2. ✅ validates if the requisition was triggered by a **admin**
@@ -12,7 +12,7 @@
 5. ✅ **stores** the object in a mongodb collection
 6. ✅ returns **201** with the new post
 
-> ## Exceções
+> ## exceptions
 
 1. ✅ returns error **404** if the endpoint doesn't exists
 2. ✅ returns error **403** if the user isn't a **admin**
