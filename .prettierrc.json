@@ -1,0 +1,7 @@
+{
+  "tabWidth": 2,
+  "singleQuote": true,
+  "quoteProps": "preserve",
+  "bracketSpacing": true,
+  "arrowParens": "always"
+}

@@ -1,0 +1,42 @@
+{
+  "name": "scafrando-weblog-backend",
+  "version": "1.0.0",
+  "description": "The backend of my personal weblog",
+  "main": "index.js",
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  },
+  "scripts": {
+    "test": "npm test:coverage",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kafir-coder/scafrando-weblog-backend.git"
+  },
+  "keywords": [
+    "backend",
+    "scafrando",
+    "weblog"
+  ],
+  "author": "Caio Tony",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/kafir-coder/scafrando-weblog-backend/issues"
+  },
+  "homepage": "https://github.com/kafir-coder/scafrando-weblog-backend#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0",
+    "@typescript-eslint/eslint-plugin": "^4.29.2",
+    "@typescript-eslint/parser": "^4.29.2",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "husky": "^7.0.1",
+    "lint-staged": "^11.1.2",
+    "prettier": "2.3.2",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {}
+}
