@@ -7,7 +7,8 @@
     "**/*": "prettier --write --ignore-unknown"
   },
   "scripts": {
-    "test": "npm test:coverage",
+    "test": "jest",
+    "test:coverage": "jest --collectCoverage",
     "prepare": "husky install"
   },
   "repository": {
@@ -26,13 +27,17 @@
   },
   "homepage": "https://github.com/kafir-coder/scafrando-weblog-backend#readme",
   "devDependencies": {
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-typescript": "^7.15.0",
     "@commitlint/cli": "^13.1.0",
     "@commitlint/config-conventional": "^13.1.0",
+    "@types/jest": "^27.0.1",
     "@typescript-eslint/eslint-plugin": "^4.29.2",
     "@typescript-eslint/parser": "^4.29.2",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "husky": "^7.0.1",
+    "jest": "^27.0.6",
     "lint-staged": "^11.1.2",
     "prettier": "2.3.2",
     "ts-node-dev": "^1.1.8",
