@@ -2,8 +2,8 @@
 
 > ## Caso de sucesso
 
-1. ✅ Recebe uma requisição do tipo **POST** na rota **/api/posts**
-2. ✅ Valida se a requisição foi feita por um **admin**
+1. ✅ receives a **POST** requisition on route **/api/posts**
+2. ✅ validates if the requisition was triggered by a **admin**
 3. ✅ validate the incomming data
    -- request body shouldn't be empty
    -- request body shouldn't be imcompleted
